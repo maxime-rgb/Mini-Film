@@ -1,5 +1,8 @@
 # template-mini-projet-films
 
+
+![Liste de films](https://github.com/code-gt/mini-projet-films/blob/2f213a8e5f7cea937ab23815f187dc0eb27995bd/preview.png)
+
 Exercice 1 
 L'objectif de ce premier exercice est de créer la page d'accueil de votre futur site "mini projet films". 
 

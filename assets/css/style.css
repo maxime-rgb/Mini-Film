@@ -1,0 +1,74 @@
+.navbar{
+    background: linear-gradient(to right, #000000, #b10c2d);
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    height: 10vh;
+}
+
+
+.navbar-link{
+    position: absolute;
+    left: 45%;
+}
+
+.jumbotron{
+    background-image: url("../images/salle-cinema.jpeg");
+    background-position: center;
+    font-family: 'Bangers', cursive;
+    background-size: cover;
+    height : 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron h1{
+    font-size: 15vh;
+}
+
+.film-content{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: black;
+}
+
+.film-content .card{
+    height: auto;
+    margin: 15px;
+    border: none;
+}
+
+.card img{
+    width: 100%;
+    height: 80%;
+}
+
+.film-content .card .card-body{
+    height: 6rem;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .btn{
+    margin-top: 15px;
+}
+
+.footer-content{
+    height: 35vh;
+    background: linear-gradient(to right, #000000, #ff093a);
+    font-family: 'Bangers', cursive;
+    color: white;
+    text-align: center;
+    padding-top: 3vh;
+
+}
+
+.footer-content .rights{
+    margin-top: 5%;
+}

@@ -1,7 +1,7 @@
 let cardMovie = document.getElementById("film-content");
 
 async function getMovies() {
-    const url = "https://www.omdbapi.com/?s=dragon_ball&plot=short&apikey=2a4831ba"
+    const url = "https://www.omdbapi.com/?s=jurassic_park&plot=short&apikey=2a4831ba"
     const response = await fetch(url)
     const data = await response.json()
     return data.Search

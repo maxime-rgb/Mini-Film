@@ -1,74 +1,141 @@
-.navbar{
+.navbar {
     background: linear-gradient(to right, #000000, #b10c2d);
     font-family: 'Bangers', cursive;
     font-size: 2rem;
     height: 10vh;
 }
 
+a.nav-link {
+    margin: 10px;
+}
 
-.navbar-link{
+.navbar-link {
     position: absolute;
     left: 45%;
 }
 
-.jumbotron{
+p.font-italic {
+    font-size: 1.7em;
+}
+
+.jumbotron a.btn {
+    font-size: 3vh;
+}
+
+.jumbotron {
     background-image: url("../images/salle-cinema.jpeg");
     background-position: center;
     font-family: 'Bangers', cursive;
     background-size: cover;
-    height : 100vh;
+    height: 100vh;
     color: white;
     display: flex;
     align-items: center;
 }
 
-.jumbotron h1{
-    font-size: 15vh;
+.jumbotron h1 {
+    font-size: 7vh;
 }
 
-.film-content{
+#film-content {
     display: flex;
     justify-content: center;
     padding-top: 5%;
     padding-bottom: 5%;
     background-color: black;
+    flex-wrap: wrap;
 }
 
-.film-content .card{
+#film-content .card {
+    min-width: 10vw;
+    max-width: 15vw;
     height: auto;
     margin: 15px;
-    border: none;
+    border: 2px solid grey;
+    background-color: black;
 }
 
-.card img{
-    width: 100%;
-    height: 80%;
+.card img {
+    min-width: 100%;
+    height: 60%;
 }
 
-.film-content .card .card-body{
-    height: 6rem;
+#film-content .card .card-body {
+    min-height: 12rem;
+    max-height: 12rem;
     color: white;
     background-color: black;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-.card .btn{
-    margin-top: 15px;
+#film-content .card .card-title {
+    position: relative;
+    font-size: 1.1em;
+    bottom: 6vh;
 }
 
-.footer-content{
-    height: 35vh;
+#film-content .card .card-title h5 {
+    font-family: 'Bangers', cursive;
+}
+
+.card .btn {
+    margin-top: 20px;
+}
+
+#film-content>div:nth-child(n)>div>a {
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-family: 'Bangers', cursive;
+    font-size: 0.8em;
+    padding-top: 5px;
+}
+
+#film-content div:nth-child(n)>div:hover {
+    background-color: #8d0a24;
+}
+
+#film-content>div:nth-child(n)>div>h5 {
+    font-size: 0.8rem;
+}
+
+#film-content>div:nth-child(n)>div>p {
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 10%;
+    font-family: 'Bangers', cursive;
+}
+
+.footer-content {
     background: linear-gradient(to right, #000000, #ff093a);
     font-family: 'Bangers', cursive;
     color: white;
     text-align: center;
     padding-top: 3vh;
-
 }
 
-.footer-content .rights{
+.footer-content .rights {
     margin-top: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h4 {
+    font-size: 2rem;
+    margin-top: 7%;
+}
+
+footer img {
+    width: 7%;
 }

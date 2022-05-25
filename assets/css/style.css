@@ -91,6 +91,7 @@
 .card .btn {
     width: 5vw;
     font-size: 0.6vw;
+    margin-top: 1vw;
     position: absolute;
     bottom: 1vw;
     right: 25%;
@@ -177,11 +178,21 @@ footer a {
         background-color: black;
     }
     .card .btn {
-        width: 10vw;
+        width: 12vw;
         font-size: 1.2vw;
         position: absolute;
         bottom: 1vw;
-        right: 25%;
+        right: 20%;
+    }
+    #film-content .card .card-body {
+        color: white;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 2vw;
     }
     .link {
         display: flex;

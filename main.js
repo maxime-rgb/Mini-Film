@@ -1,10 +1,11 @@
 let cardMovie = document.getElementById("film-content");
 
 async function getMovies() {
-    const url = "https://www.omdbapi.com/?s=jurassic_park&plot=short&apikey=2a4831ba"
+    const url = "http://www.omdbapi.com/?s=jurassic_park&plot=full&apikey=2a4831ba"
     const response = await fetch(url)
     const data = await response.json()
     return data.Search
+
 }
 
 
@@ -36,7 +37,6 @@ const data = getMovies().then(function(movies) {
 
         const cardButton = document.createElement("a")
         cardButton.classList.add("card-button")
-
         cardButton.innerHTML = '<button type="button" class="btn btn-outline-light">Voir plus</button>'
         cardBody.appendChild(cardButton)
 

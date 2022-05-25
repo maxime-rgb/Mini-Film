@@ -135,13 +135,19 @@ footer a {
     font-size: 1.2vw;
 }
 
-@media (min-width:100px) and (max-width: 1100px) {
+@media (min-width:100px) and (max-width: 990px) {
     .navbar {
         background: linear-gradient(to right, #000000, #b10c2d);
         font-family: 'Bangers', cursive;
         font-size: 4vw;
         height: 10vh;
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar>.container-fluid {
+        display: flex;
+        margin-top: -15px;
         flex-direction: row;
         justify-content: space-between;
     }

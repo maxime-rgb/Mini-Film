@@ -90,8 +90,7 @@
 
 .card .btn {
     width: 5vw;
-    height: auto;
-    font-size: 0.7vw;
+    font-size: 0.6vw;
 }
 
 #film-content>div:nth-child(n)>div>h5 {
@@ -160,5 +159,13 @@ footer img {
     }
     .jumbotron .font-italic {
         font-size: 3.5vw;
+    }
+    #film-content .card {
+        min-width: 20vw;
+        max-width: 20vw;
+        height: auto;
+        margin: 3vw;
+        border: 2px solid grey;
+        background-color: black;
     }
 }

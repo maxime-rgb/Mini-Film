@@ -176,7 +176,7 @@ footer a {
         font-size: 3.5vw;
     }
     #film-content .card {
-        min-width: 20vw;
+        min-width: 32vw;
         max-width: 20vw;
         height: auto;
         margin: 3vw;
@@ -184,11 +184,11 @@ footer a {
         background-color: black;
     }
     .card .btn {
-        width: 12vw;
+        width: 20vw;
         max-height: 6vw;
         font-size: 1.2vw;
         position: absolute;
-        bottom: 1vw;
+        bottom: 3vw;
         right: 20%;
     }
     #film-content .card .card-body {
@@ -205,5 +205,16 @@ footer a {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+    #film-content .card .card-title {
+        font-size: 3vw;
+    }
+    #film-content .card .card-title h5 {
+        font-family: 'Bangers', cursive;
+        font-size: 4vw;
+    }
+    #film-content>div:nth-child(n)>div>p {
+        font-size: 2.5vw;
+        font-family: 'Bangers', cursive;
     }
 }

@@ -45,60 +45,53 @@
 
 #film-content .card {
     min-width: 10vw;
-    max-width: 15vw;
+    max-width: 12vw;
     height: auto;
-    margin: 15px;
+    margin: 3vw;
     border: 2px solid grey;
     background-color: black;
 }
 
 .card img {
+    display: block;
     min-width: 100%;
     height: 60%;
 }
 
 #film-content .card .card-body {
-    min-height: 12rem;
-    max-height: 12rem;
+    min-height: 12vw;
     color: white;
     background-color: black;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    justify-content: start;
     text-align: center;
+    align-items: center;
+}
+
+#film-content .card .card-body:hover {
+    min-height: 12vw;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #8d0a24;
 }
 
 #film-content .card .card-title {
-    position: relative;
-    font-size: 1.1em;
-    bottom: 6vh;
+    font-size: 1vw;
 }
 
 #film-content .card .card-title h5 {
     font-family: 'Bangers', cursive;
+    font-size: 1.6vw;
 }
 
 .card .btn {
-    margin-top: 20px;
-}
-
-#film-content>div:nth-child(n)>div>a {
-    position: absolute;
-    bottom: 40px;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    width: 6.5rem;
-    height: 2rem;
-    border-radius: 50%;
-    font-family: 'Bangers', cursive;
-    font-size: 0.8em;
-    padding-top: 5px;
-}
-
-#film-content div:nth-child(n)>div:hover {
-    background-color: #8d0a24;
+    width: 5vw;
+    height: auto;
+    font-size: 0.7vw;
 }
 
 #film-content>div:nth-child(n)>div>h5 {
@@ -106,9 +99,7 @@
 }
 
 #film-content>div:nth-child(n)>div>p {
-    font-size: 1.3rem;
-    position: absolute;
-    bottom: 10%;
+    font-size: 1.3vw;
     font-family: 'Bangers', cursive;
 }
 
@@ -121,7 +112,6 @@
 }
 
 .footer-content .rights {
-    margin-top: 5%;
     display: flex;
     text-align: center;
     justify-content: center;

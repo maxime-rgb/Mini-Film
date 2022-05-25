@@ -91,6 +91,9 @@
 .card .btn {
     width: 5vw;
     font-size: 0.6vw;
+    position: absolute;
+    bottom: 1vw;
+    right: 25%;
 }
 
 #film-content>div:nth-child(n)>div>h5 {
@@ -167,5 +170,12 @@ footer img {
         margin: 3vw;
         border: 2px solid grey;
         background-color: black;
+    }
+    .card .btn {
+        width: 10vw;
+        font-size: 1.2vw;
+        position: absolute;
+        bottom: 1vw;
+        right: 25%;
     }
 }

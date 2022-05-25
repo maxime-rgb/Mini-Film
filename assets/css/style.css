@@ -141,7 +141,7 @@ footer img {
     .navbar {
         background: linear-gradient(to right, #000000, #b10c2d);
         font-family: 'Bangers', cursive;
-        font-size: 3vw;
+        font-size: 4vw;
         height: 10vh;
         display: flex;
         flex-direction: row;
@@ -154,7 +154,7 @@ footer img {
     .navbar-nav {
         display: flex;
         flex-direction: row;
-        font-size: 1.2em;
+        font-size: 4vw;
     }
     ul li:nth-child(1) {
         margin-right: 1vh;

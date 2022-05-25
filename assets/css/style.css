@@ -188,7 +188,7 @@ footer a {
         max-height: 6vw;
         font-size: 1.2vw;
         position: absolute;
-        bottom: 3vw;
+        bottom: 2vw;
         right: 20%;
     }
     #film-content .card .card-body {
@@ -207,14 +207,14 @@ footer a {
         justify-content: center;
     }
     #film-content .card .card-title {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     #film-content .card .card-title h5 {
         font-family: 'Bangers', cursive;
-        font-size: 4vw;
+        font-size: 3vw;
     }
     #film-content>div:nth-child(n)>div>p {
-        font-size: 2.5vw;
+        font-size: 2.3vw;
         font-family: 'Bangers', cursive;
     }
 }

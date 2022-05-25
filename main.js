@@ -36,7 +36,7 @@ const data = getMovies().then(function(movies) {
 
         const cardButton = document.createElement("a")
         cardButton.classList.add("card-button")
-
+        cardButton.setAttribute('href', './Erreur404.html');
         cardButton.innerHTML = '<button type="button" class="btn btn-outline-light">Voir plus</button>'
         cardBody.appendChild(cardButton)
 

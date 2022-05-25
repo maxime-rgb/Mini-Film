@@ -1,0 +1,29 @@
+body {
+    background-image: url("/assets/images/unknown.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.page {
+    position: absolute;
+    left: 45%;
+    top: 80%;
+    width: 80vw;
+    height: auto;
+    width: 10vw;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+
+.page a {
+    color: black;
+    text-decoration: none;
+}
+
+.page a:hover {
+    color: rgb(83, 8, 90);
+    text-decoration: none;
+    background-color: grey;
+}

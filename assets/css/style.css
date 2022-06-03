@@ -84,7 +84,7 @@ button {
 }
 
 #film-content .card .card-body:hover {
-    min-height: 12vw;
+    min-height: 14vw;
     color: white;
     background-color: black;
     display: flex;
@@ -213,7 +213,6 @@ footer a {
         justify-content: start;
         text-align: center;
         align-items: center;
-        margin-bottom: 2vw;
     }
     .link {
         display: flex;

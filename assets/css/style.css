@@ -231,4 +231,19 @@ footer a {
         font-size: 2.3vw;
         font-family: 'Bangers', cursive;
     }
+    .search-container {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-control {
+        min-width: 30vw;
+        margin-bottom: 1vw;
+    }
+    button {
+        border: none;
+        width: 10vw;
+    }
 }

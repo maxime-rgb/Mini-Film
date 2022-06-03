@@ -238,11 +238,12 @@ footer a {
         align-items: center;
     }
     .form-control {
-        min-width: 30vw;
+        min-width: 35vw;
         margin-bottom: 1vw;
     }
     button {
         border: none;
         width: 10vw;
+        text-align: center;
     }
 }

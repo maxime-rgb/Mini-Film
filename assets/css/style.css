@@ -61,8 +61,8 @@ button {
 }
 
 #film-content .card {
-    min-width: 10vw;
-    max-width: 12vw;
+    min-width: 15vw;
+    max-width: 15vw;
     height: auto;
     margin: 3vw;
     border: 2px solid grey;
@@ -98,6 +98,7 @@ button {
 
 #film-content .card .card-title {
     font-size: 1vw;
+    min-height: 5vh
 }
 
 #film-content .card .card-title h5 {
@@ -105,13 +106,18 @@ button {
     font-size: 1.6vw;
 }
 
+#film-content .card .card-text {
+    display: flex;
+    align-items: flex-end;
+    min-height: 13vh
+}
+
 .card .btn {
     width: 5vw;
     font-size: 0.6vw;
-    margin-top: 1vw;
-    position: absolute;
+    margin-top: 2vw;
     bottom: 1vw;
-    right: 25%;
+    align-self: center;
 }
 
 #film-content>div:nth-child(n)>div>h5 {
@@ -152,7 +158,7 @@ footer a {
     font-size: 1.5vw;
 }
 
-@media (min-width:100px) and (max-width: 990px) {
+@media (min-width:100px) and (max-width: 1400px) {
     .navbar {
         background: linear-gradient(to right, #000000, #b10c2d);
         font-family: 'Bangers', cursive;

@@ -7,7 +7,6 @@ async function getMovies(searchValue = "jurassic_park") {
     return data.Search
 }
 
-
 function generateMoviesList(searchValue) {
     getMovies(searchValue).then(function(movies) {
         console.log(movies)
@@ -41,8 +40,6 @@ function generateMoviesList(searchValue) {
             cardButton.setAttribute("target", "_blank")
             cardButton.innerHTML = '<button type="button" class="btn btn-outline-light">Voir plus</button>'
             cardBody.appendChild(cardButton)
-
-
 
             document.querySelector("#film-content").appendChild(card)
         })
